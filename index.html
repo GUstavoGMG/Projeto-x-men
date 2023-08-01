@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>|Projeto X-Men</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+    <link rel="stylesheet" href="src/css/estilos.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="src/imagens/logo.svg" alt="Logo X-men" />
+    </header>
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas, mas não consegue controlá-los sem a ajuda de óculos especiais">
+            <img src="src/imagens/card-ciclope.jpg" alt="Personagem Ciclope" />
+          </li>
+          <li class="personagem" id="jean-grey" data-name="Jean Grey"
+          data-description="Jean Greyé uma mutante ômega eo principal avatar da Força Fenix, no qual ,anifesta poderes cósmicos. Possui telepatia e telecinese.">
+            <img
+              src="src/imagens/card-jean-grey.jpg"
+              alt="Personagem Jean Grey"
+            />
+          </li>
+          <li class="personagem" id="lince-negra" data-name="Licen Negra" data-description="Ela temo poder de atravessar maéria sólida, campos de energia, rajadas ópticas, continuando intacta.">
+            <img
+              src="src/imagens/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+          <li class="personagem" id="magneto" data-name="Magneto" data-description="Dotado com o poder do magnetismo, pode controlar objetos demetal e criar campos magnéticos.">
+            <img src="src/imagens/card-magneto.jpg" alt="Personagem Magneto" />
+          </li>
+          <li class="personagem" id="noturno" data-name="Noturno" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se teletransportar.">
+            <img src="src/imagens/card-noturno.jpg" alt="Personagem Noturno" />
+          </li>
+          <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tem o poder de controlar as forças da natureza, muito poderosa elapode produzir raios, chuvas, gelas, ventos, neblina entre outros efeitos climáticos.">
+            <img
+              src="src/imagens/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+          <li class="personagem" id="vampira" data-name="Vampira" data-description="Ela tem o poder de absorver a vitalidade, memórias e também os poderes de quem ela toca, mas só temporariamente.">
+            <img src="src/imagens/card-vampira.jpg" alt="Personagem Vampira" />
+          </li>
+          <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Garras e um esqueleto feitos de adamantiun, fator de cura e super agilidade.">
+            <img
+              src="src/imagens/card-wolverine.jpg"
+              alt="Personagem Wolverine"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="src/imagens/card-ciclope.png"
+          alt="Personagem Selecionado"
+        />
+        <div class="informacoes-personagens">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele tem o poder de disparar rajadas ópticas, mas não consegue controlá-los sem a ajuda de óculos especiais
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
